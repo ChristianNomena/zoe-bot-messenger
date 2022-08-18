@@ -2,10 +2,10 @@ from os import environ as env
 
 
 class Configuration:
-    '''
-        Retrieves the value from the environment.
-        Takes the default value if not defined.
-    '''
+    """
+    Retrieves the value from the environment.
+    Takes the default value if not defined.
+    """
     ADAPTER = env.get('ADAPTER')
 
     DB_FILE = env.get('DB_FILE')
@@ -22,4 +22,3 @@ class Configuration:
     APP_HOST = env.get('AMP_HOST', '0.0.0.0')
     APP_PORT = int(env.get('AMP_PORT', 4555))
     APP_URL = env.get('AMP_URL')
-
