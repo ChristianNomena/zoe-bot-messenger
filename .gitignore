@@ -134,3 +134,4 @@ ngrok
 ngrok.exe
 
 .env.bat
+*.db
