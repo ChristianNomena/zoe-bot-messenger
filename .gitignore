@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.env
+.env.bat
+__pycache__/
+ngrok
+ngrok.exe
+
+.env.bat
