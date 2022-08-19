@@ -133,5 +133,7 @@ __pycache__/
 ngrok
 ngrok.exe
 
+.idea/
+
 .env.bat
 *.db
