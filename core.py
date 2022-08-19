@@ -22,5 +22,5 @@ def main(sender_id, cmd, **extends):
             data sent by your payload if not set in parameter
     """
     
-    chat.send_message(sender_id, "Hello, Ampalibe")
+    chat.send_message(sender_id, "Hello world")
     
