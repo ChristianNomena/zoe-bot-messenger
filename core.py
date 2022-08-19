@@ -23,4 +23,3 @@ def main(sender_id, cmd, **extends):
     """
     
     chat.send_message(sender_id, "Hello world")
-    
