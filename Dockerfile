@@ -4,6 +4,6 @@ ADD . /usr/src/app/
 
 # RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 4555/tcp
+EXPOSE 80/tcp
 
 CMD ampalibe -p $PORT run
