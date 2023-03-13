@@ -4,6 +4,6 @@ ADD . /usr/src/app/
 
 # RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 80/tcp
+EXPOSE 8080/tcp
 
-CMD ampalibe -p $PORT run
+CMD ampalibe -p 8080 run
